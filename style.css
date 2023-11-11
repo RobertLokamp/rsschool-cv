@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     width: 50%;
     background-color: #FFF;
+    min-width: 600px;
 }
 
 header {

@@ -22,7 +22,11 @@ function greet() { return 'hello world!' }
 ```
 
 ## Work experience
-No experience as a frontend developer
+No commercial experience as a frontend developer \
+My projects:
+* [library](https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/library/)
+* [image galery](https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/image-galery/)
+* [memory game](https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/random-game/)
 
 ## Education
 * **Bachelor, Master. Moscow State University of Printing Arts of Ivan Fedorov**

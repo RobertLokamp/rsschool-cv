@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Kulagin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-list-item">Contacts</a></li>
+                    <li><a href="#about" class="nav-list-item">About</a></li>
+                    <li><a href="#skills" class="nav-list-item">Skills</a></li>
+                    <li><a href="#code" class="nav-list-item">Code</a></li>
+                    <li><a href="#experience" class="nav-list-item">Experience</a></li>
+                    <li><a href="#education" class="nav-list-item">Education</a></li>
+                    <li><a href="#languages" class="nav-list-item">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+        <div class="left-block">
+            <section class="profile">
+                <div class="profile-photo"><img src="avatar.jpg" alt=""></div>
+                <h1>Ivan Kulagin</h1>
+                <p class="profile-position">Front-End Developer</p>
+            </section>
+            <section id="contacts">
+                <h2 class="section-header">Contacts</h2>
+                <ul class="left-block-list">
+                    <li>Moscow, Russia</li>
+                    <li><a href="tel:+78005553535" class="contacts-links">+7&nbsp;800&nbsp;555&nbsp;3535</a></li>
+                    <li><a href="mailto:mymail@gmail.com" class="contacts-links">mymail@gmail.com</a></li>
+                    <li><a href="https://discordapp.com/users/RobLokamp#9913" class="contacts-links">Discord</a></li>
+                    <li><a href="https://t.me/kulagin_iv" class="contacts-links">Telegram</a></li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2 class="section-header">Skills</h2>
+                <ul class="left-block-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2 class="section-header">Languages</h2>
+                <ul class="left-block-list">
+                    <li>Russian - native</li>
+                    <li>English - A2</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-block">
+            <section class="about" id="about">
+                <h2 class="section-header">About me</h2>
+                <p class="right-block-text">I want to become a frontend developer. While I am work as a QA engineer. I am working in this position for more than 4 years. I also have experience in automated testing using JavaScript and Python and I think it can help me in finding a job as a frontend developer. I would like to mention that my journey to this field has been fueled by a deep-rooted love for problem-solving and creativity, aided by soft skills that I believe are just as vital in the world of frontend development.</p>
+            </section>
+            <section id="code">
+                <h2 class="section-header">Code example</h2>
+                <div class="code-block">
+                        <pre><code class="right-block-text">
+    function sumArray(arr, index = 0) {
+        if(index === arr.length) {
+            return 0;
+        }
+
+        return arr[index] + sumArray(arr, index + 1);
+    }</code></pre>
+                </div>
+            </section>
+            <section id="expirience">
+                <h2 class="section-header">Experience</h2>
+                <p class="right-block-text">No commercial experience as a frontend developer</p>
+                <p class="right-block-text">My projects:</p>
+                <ul class="right-block-text right-block-list">
+                    <li><a href="https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/library/" target="_blank">library</a></li>
+                    <li><a href="https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/image-galery/" target="_blank">image galery</a></li>
+                    <li><a href="https://rolling-scopes-school.github.io/robertlokamp-JSFEPRESCHOOL2023Q2/random-game/" target="_blank">memory game</a></li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2 class="section-header">Education &amp; Courses</h2>
+                <ul class="right-block-text right-block-list">
+                    <li>Bachelor, Master. Moscow State University of Printing Arts of Ivan Fedorov</li>
+                    <li>Route 256 by Ozon: QA Automation (Python)</li>
+                    <li>Stepik: Automation testing with Python (Selenium)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/RobertLokamp/" target="_blank" class="footer-item">my github</a>
+        <span class="footer-item">2023</span>
+        <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-item"><img src="./assets/icons/rs-school-logo.svg" alt="rs school logo" class="school-logo"></a>
+    </footer>
+
+    </div>
+</body>
+</html>
